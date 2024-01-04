@@ -1,0 +1,49 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav h1 {
+
+  font-size: 40px;
+  color: blueviolet;
+  margin: 0;
+}
+
+.nav ul {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.nav li {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.nav li a {
+  color: brown;
+  font-family: "Arial Black", serif;
+  font-size: large;
+}
+
+
+.nav input {
+  font-size: larger;
+  width: auto;
+  flex: 1px;
+  border: 1px solid;
+  padding-top: 10px;
+
+}
+
+.nav button {
+  font-size: larger;
+  width: auto;
+  flex: 1px;
+  border: 1px solid;
+  padding-top: 10px;
+  color: blue;
+}
